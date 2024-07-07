@@ -1,0 +1,6 @@
+/src/rethinkvsralignment/
+/src/practical_rife/
+/src/practical_rife/
+
+*/__pycache__/
+*.pyc
