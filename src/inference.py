@@ -1,13 +1,11 @@
-import torch
+from utils import update_path
 
-from constants import DEVICE
+update_path()
+
+from show1 import generate_base_frames
 from psrt import super_resolution
 from rife import interpolate
 from safa import enhance
-from show1 import generate_base_frames
-from utils import update_paths
-update_paths()
-
 
 def generate_video(prompt_text="panda dancing", negative_prompt="", filename=None):
     filename = filename if filename else prompt_text + ".mp4"

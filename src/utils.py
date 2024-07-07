@@ -3,7 +3,7 @@ from constants import FP16
 import sys
 import os
 
-def update_paths():
+def update_path():
     current = os.path.dirname(__file__)
 
     sys.path.append(current + "/show_1")
@@ -12,7 +12,7 @@ def update_paths():
     sys.path.append(current + "/practical_rife/train_log_RIFE")
     sys.path.append(current + "/practical_rife/train_log_SAFA")
 
-    print("appended")
+    print("appended to path")
 
 def pad_image(img, padding, sr=False):
     if sr:
