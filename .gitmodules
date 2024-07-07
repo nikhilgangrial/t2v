@@ -1,9 +1,9 @@
 [submodule "src/show_1"]
 	path = src/show_1
-	url = https://github.com/showlab/Show-1.git
+	url = https://github.com/showlab/Show-1
 [submodule "src/rethinkvsralignment"]
 	path = src/rethinkvsralignment
 	url = https://github.com/XPixelGroup/RethinkVSRAlignment
 [submodule "src/practical_rife"]
 	path = src/practical_rife
-	url = https://github.com/hzwer/Practical-RIFE.git
+	url = https://github.com/hzwer/Practical-RIFE
